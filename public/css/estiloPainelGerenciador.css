@@ -1,0 +1,136 @@
+.sidebar.sidebar-style-2 .nav .nav-item a:focus, .sidebar.sidebar-style-2 .nav .nav-item a:hover, .sidebar.sidebar-style-2 .nav .nav-item a[data-toggle=collapse][aria-expanded=true] {
+    background: #f5f5f5 !important;
+}
+
+.header {
+    display: flex;
+    background-color:transparent;
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+
+
+}
+
+.shadow {
+    box-shadow: none !important;
+    }
+
+    
+    
+    
+    @media(max-width: 769px){
+
+        .header {
+            position: right;
+        }
+    }
+    
+    @media(min-width: 641px) and (max-width:1040px){
+    
+        .tituloMobile {
+            width: 100% !important;
+            padding-bottom: 25px !important;
+            text-align: center;
+        }
+    
+        .logout {
+            width: 100% !important;
+            text-align: center;
+            margin-left: 0;
+        }
+    
+        .navMobile {
+            flex-wrap: wrap !important;
+            margin-bottom: 0px;
+        }
+    
+       
+    }
+    
+    @media(max-width: 640px){
+    
+        .tituloMobile {
+            width: 100% !important;
+            padding-bottom: 25px !important;
+            text-align: center;
+        }
+    
+        .navMobile {
+            flex-wrap: wrap !important;
+            margin-bottom: 0px;
+        }
+    
+        .logout {
+            width: 100% !important;
+            text-align: center;
+            margin-left: 0px;
+        }
+    
+       
+    }
+    
+    @media(max-width: 600px) {
+        .teste h1 {
+            color: #fff;
+            font-size: 25px;
+        }
+    }
+    
+    @media(min-width: 361px) and (max-width: 429px) {
+        .leitoInfo {
+            font-size: 35px !important; 
+        }
+    
+        .leitoIcone{
+            padding: 0;
+            font-size: 15px !important;
+        }
+    
+        .botao {
+            font-size: 13px;
+            padding: 7px 12px;
+            margin: 5px 0;
+        }
+    
+        /* #graph, #graph2 {
+            margin: 0 auto;
+        } */
+    }
+    
+    @media(max-width: 360px){
+    
+        .logo {
+            text-align: center !important;
+        }
+    
+        .brasao{
+            width: 295px;
+            height: 32px;
+    
+        }
+    
+        .logout {
+            width: 100% !important;
+            text-align: center;
+            margin-left: 0;
+        }
+    }
+
+    .conteudo{
+      /* background-color: #fff;*/
+    
+      padding-right: 10px;
+      padding-left: 10px;
+
+    }
+
+    .page-inner {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+  

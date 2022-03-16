@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #292929 !important;
+}
+
+.teste {
+    display: flex;
+    background-color: #1f4068;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.teste h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+#buttonDeslogar {
+    background: transparent;
+    border: 0px;
+    color: #fff;
+}
+
+#menu{
+    background: transparent;
+    border: 0px;
+    color: #fff;
+}
+
+.mb-4, .my-4 {
+margin-bottom: 0.5rem!important;
+}
+
+/*.shadow {
+box-shadow: 0 .15rem 0.20rem 0 rgba(58,59,69,.15)!important;
+}*/
+
+.shadow {
+box-shadow: none !important;
+}
+
+.card-body {
+flex: 1 1 auto;
+padding: 1.0rem;
+}
+
+.pb-2, .py-2 {
+padding-bottom: .0rem!important;
+padding-top: .0rem!important;
+}
+
+#infDestaque {
+/* font-size: 30px;-->*/
+font-weight: 800;
+color: #8bec8f;
+}
+
+.infTestagem {
+/* font-size: 30px;-->*/
+padding: 10px;
+}
+
+#casos_positivos {
+padding-bottom: 1.0rem;
+}
+
+#casos_por_dia {
+padding-bottom: 1.0rem;
+}
+
+.rodape{
+    font-size: 0.8rem;
+}
+
+.brasao{
+    width: 343px;
+    height: 38px;
+}
+
+.logo{
+    text-align: right;
+}
+
+.logo img{
+    width: 114px;
+    height: 60px;
+}
+
+.table{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.table .semBorda{
+    border-style: none;
+}
+
+.table td{
+    padding: 10px;
+    color: #ffffff;
+}
+
+.logout {
+    margin-left: 30px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff !important;
+}
+
+h2, h3, h4 , h5{
+    text-align: center;
+    color: #1f4068;
+}
+
+.imagem{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagem img{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#mapid {
+    margin: 0px;
+    height: 500px;
+    width: 100%;
+    border: solid 1px #c3c3c3;;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    background-color:transparent;
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.ContainerPainel {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.PainelInfo {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #162447;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.teste {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.teste #casos_positivos {
+    margin-left: 40px;
+    width: 70%;
+
+}
+
+.teste #por_sexo {
+    margin-right: 40px;
+    width: 30%;
+}
+
+
+.ContainerGraficos {
+    display: flex;
+    flex-direction: column;
+}
+
+.teste3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.casos_por_dia, .casos_positivos_bairros, .casos_positivos_etaria{
+    width: 100%;
+}
+
+.ContainerInfoTestagemCorona{
+    padding: 50px;
+    background-color: #1f4068;
+}
+
+.ContainerAnaliseComparativa{
+    padding: 50px;
+    background-color: #fff;
+}
+
+.ContainerInfoTestagemCorona h5, h4, h3, h2{
+    color: #fff;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #162447;
+}
+
+.card {
+    border: none;
+    background-color: #56565659 !important;
+}
+
+.card-header {
+
+    border-bottom: none !important;
+}
+
+#h5size {
+    font-size: 30px;
+    color: #75daad;
+}
+
+.cardAnalise{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #162447;
+}
+
+#content{
+    background-color: #56565659;
+
+}
+
+.chart3 {
+    position:relative;
+    margin: 0 0 60px 0;
+    width:10px; height:10px;
+}
+canvas {
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.legend {
+    text-align: left;
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+a{
+    color: #ffffff;
+}
+
+.porcentagem {
+    color: #ffffff !important;
+}
+
+/* .menu{
+    display: flex;
+    margin-left: 96%;
+    align-content: center;
+    font-family: 'Nunito', sans-serif;
+} */
+
+@media(max-width: 769px){
+
+    .header {
+        position: right;
+    }
+}
+
+@media(min-width: 1041px){
+    .quadroAviso {
+        width:50%;
+    }
+
+}
+
+@media(min-width: 641px) and (max-width:1040px){
+
+    .tituloMobile {
+        width: 100% !important;
+        padding-bottom: 25px !important;
+        text-align: center;
+    }
+
+    .logout {
+        width: 100% !important;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .navMobile {
+        flex-wrap: wrap !important;
+        margin-bottom: 0px;
+    }
+
+    .topbar{
+        height: 13rem;
+    }
+
+    .quadroAviso {
+        width:50%;
+    }
+}
+
+@media(max-width: 640px){
+
+    .tituloMobile {
+        width: 100% !important;
+        padding-bottom: 25px !important;
+        text-align: center;
+    }
+
+    .navMobile {
+        flex-wrap: wrap !important;
+        margin-bottom: 0px;
+    }
+
+    .logout {
+        width: 100% !important;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .topbar{
+        height: 13rem;
+    }
+
+    .quadroAviso {
+        width:70%;
+    }
+}
+
+@media(max-width: 600px) {
+    .teste h1 {
+        color: #fff;
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 361px) and (max-width: 429px) {
+    .leitoInfo {
+        font-size: 35px !important;
+    }
+
+    .leitoIcone{
+        padding: 0;
+        font-size: 15px !important;
+    }
+
+    .botao {
+        font-size: 13px;
+        padding: 7px 12px;
+        margin: 5px 0;
+    }
+
+    .quadroAviso {
+        width:90%;
+    }
+
+    /* #graph, #graph2 {
+        margin: 0 auto;
+    } */
+}
+
+@media(max-width: 360px){
+
+    .logo {
+        text-align: center !important;
+    }
+
+    .brasao{
+        width: 295px;
+        height: 32px;
+
+    }
+
+    .logout {
+        width: 100% !important;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .logo img{
+        width: 86px;
+        height: 48px;
+
+    }
+
+    .topbar{
+        height: 12rem;
+    }
+
+    .table td{
+        padding: 0px;
+    }
+
+    .table{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+
+    .rodape{
+        font-size: 0.6rem;
+    }
+
+    .leitoTitulo {
+        font-size: 20px !important;
+    }
+
+    .leitoInfo {
+        font-size: 25px !important;
+    }
+
+    .leitoIcone{
+        font-size: 11px !important;
+    }
+
+    .graphLeito{
+        margin-top: 1% !important;
+    }
+
+    .graphContainer {
+        width: 80% !important;
+    }
+
+
+    .progress-circle {
+        margin: 15px ;
+    }
+
+    .botao {
+        font-size: 13px;
+        padding: 7px 12px;
+        margin: 5px 0;
+    }
+
+    /* .legend{
+        background-color: black;
+        height: 75px;
+        font-size: 10px;
+    }
+
+    .legend i {
+        width: 12px;
+        height: 12px;
+    } */
+
+    .info {
+        padding: 3px 4px;
+        font: 10px/12px Arial, Helvetica, sans-serif;
+        background: white;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .info h4{
+        font-size: medium;
+    }
+
+    .infoBairros {
+        margin-left: 50px;
+    }
+
+    .legend {
+        text-align: left;
+        line-height: 18px;
+        color: #555;
+    }
+    .legend i {
+        width: 10px;
+        height: 10px;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .quadroAviso {
+        width:100%;
+    }
+}
+
+.btn-info:not(:disabled):not(.disabled).active {
+    background-color: #227682;
+    border-color: #227b88;
+}
+
+.graficoPizza{
+  padding-top: 15px;
+
+}
+
+.semBorda a:hover{
+    color: #0703df;
+
+}

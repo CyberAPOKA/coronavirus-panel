@@ -1,0 +1,7 @@
+.sidebar .sidebar-style-2 .nav .nav-item.active>a,
+.sidebar .sidebar-style-2 .nav .nav-item.active>a:focus,
+.sidebar .sidebar-style-2 .nav .nav-item.active>a:hover,
+.sidebar .sidebar-style-2 .nav .nav-item.active>a[data-toggle=collapse][aria-expanded=true] {
+    background: #fff !important;
+    color: #1a2035 !important
+}
